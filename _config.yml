@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 查理笔记
 subtitle: ''
 description: ''
-keywords:
-author: John Doe
-language: en
+keywords: 小丑白日梦
+author: 罗查理
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: 'https://note.luocharlie.cn/'
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -25,6 +25,7 @@ source_dir: source
 public_dir: public
 tag_dir: tags
 archive_dir: archives
+personal_dir: personal
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
@@ -96,9 +97,25 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-pure
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  repo: https://github.com/LuoCharlie/CharlieNote.git
+  branch: main
+  type: baidu_url_submitter
+
+
+
+# 站点地图
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+baidu_url_submit: 
+  count: 10
+  host: https://note.luocharlie.cn/sitemap.xml
+  token: 51CWkGuPy1bzXqhi
+  path: baidu_urls.txt
