@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 查理笔记
 subtitle: ''
 description: ''
-keywords:
-author: John Doe
-language: en
+keywords: 小丑白日梦
+author: 罗查理
+language: zh-CN
 timezone: ''
 
 # URL
@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-pure
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
