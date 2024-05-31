@@ -8,6 +8,7 @@ menu:
   Movies: 电影
   Links: 友链
   About: 关于
+  Personal: 个人圈
 nav:
   all: All
   older: 下一篇
@@ -43,7 +44,7 @@ widget:
   tags: 标签
   categories: 分类
   tagcloud: 标签云
-  recent_posts: 最新文章
+  recent_posts: 最新技术文章
 profile: 
   follow: 关注
   skill: 技能

@@ -1,11 +1,12 @@
 # menu
 menu:
   Home: .
-  Archives: archives  # 归档
+  # Archives: archives  # 归档
   Categories: categories  # 分类
   Tags: tags  # 标签
   # Repository: repository  # github repositories
   # Books: books  # 豆瓣书单
+  Personal: personal  # 个人圈
   Links: links  # 友链
   About: about  # 关于
 
@@ -20,6 +21,7 @@ menu_icons:
   books: icon-book-fill
   links: icon-friendship
   about: icon-cup-fill
+  personal: icon-delicious
 
 # rss
 # rss: /atom.xml
@@ -32,7 +34,7 @@ site:
     height: 40
     url: ../images/logo.png
   title: 罗查理的博客 # 页面title
-  favicon: ../favicon.jpg
+  favicon: ../favicon.ico
   board: <p>欢迎交流与分享经验!</p> # 站点公告
   copyright: false # 底部版权信息
 
@@ -63,9 +65,9 @@ sidebar: right
 widgets:
   - board  
   - category
-  - tag
+  # - tag
   - tagcloud
-  - archive
+  # - archive
   - recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
@@ -91,11 +93,11 @@ donate:
   enable: true
   # 微信打赏
   wechatpay:
-    qrcode: images/donate/wechatpayimg.png
+    qrcode: images/donate/wechatpayimg.jpg
     title: 微信支付
   # 支付宝打赏
   alipay: 
-    qrcode: images/donate/alipayimg.png 
+    qrcode: images/donate/alipayimg.jpg 
     title: 支付宝
 
 # Share
@@ -163,7 +165,7 @@ comment:
   # https://api.douban.com/v2/movie/subject/:id 单个电影信息
   # https://api.douban.com/v2/movie/search?q={text} 电影搜索
 douban:
-  user: # 豆瓣用户名
+  user: dubian0816 # 豆瓣用户名
   start: 0 # 从哪一条记录开始
   count: 100 # 获取豆瓣书单数据条数
   apikey: # 豆瓣apikey
@@ -248,3 +250,6 @@ profile:
   projects:
     cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
     cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+
+# Personal 个人圈
+personal: 

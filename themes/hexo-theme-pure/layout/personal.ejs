@@ -1,0 +1,11 @@
+<main class="main" role="main">
+  <header class="article-header">
+    <h1 itemprop="title">一个人的碎碎念</h1>
+  </header>
+  <%- partial('_partial/archive-list', 
+    {
+      index: true,
+      page: {posts:site.posts.filter(item=>item.isPersonal)}
+    }
+  ) %>
+</main>

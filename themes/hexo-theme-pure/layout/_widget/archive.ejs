@@ -1,4 +1,4 @@
-<% if (site.posts.length){ %>
+<% if (site.posts.filter(item=>item.isInRecentPost).length){ %>
   <div class="widget">
     <h3 class="widget-title"><%= __('widget.archive') %></h3>
     <div class="widget-body">

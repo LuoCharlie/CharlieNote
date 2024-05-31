@@ -1,4 +1,7 @@
 <main class="main" role="main">
-  <%- partial('_partial/archive-list', {index: true}) %>
+  <%- partial('_partial/archive-list', {
+    index: true, 
+    page: {posts:site.posts.filter(item=>!item.isPersonal)}
+  }) %>
   <%- partial('_partial/pagination', {type: 'page'}) %> 
 </main>
