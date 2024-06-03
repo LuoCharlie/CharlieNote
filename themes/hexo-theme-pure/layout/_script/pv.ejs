@@ -4,11 +4,14 @@
 
 <% if(theme.pv.leancloud.enable && !theme.comment.valine.visitor ){  %>
 <!-- custom analytics part create by xiamo -->
-<script defer src="https://cdn1.lncld.net/static/js/av-min-1.2.1.js"></script>
-<script defer>
+<script src="//code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js"></script>
+<script>
+	console.log('lxl-AV',AV,'<%= theme.pv.leancloud.app_id %>','<%= theme.pv.leancloud.app_key %>')
 AV.init({
-  appId: '<%= theme.pv.leancloud.app_id %>',
-  appKey: '<%= theme.pv.leancloud.app_key %>'
+	appId: '<%= theme.pv.leancloud.app_id %>',
+	appKey: '<%= theme.pv.leancloud.app_key %>',
+	// applicationId: '<%= theme.pv.leancloud.app_id %>',
+	// applicationKey: '<%= theme.pv.leancloud.app_key %>'
 });
 
 function showTime(Counter) {
