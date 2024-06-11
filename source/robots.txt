@@ -1,0 +1,5 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+Sitemap: https://note.luocharlie.cn/baidusitemap.xml
+Sitemap: https://note.luocharlie.cn/sitemap.xml
