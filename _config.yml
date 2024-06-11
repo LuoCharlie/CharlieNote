@@ -105,6 +105,7 @@ deploy:
   type: ''
   repo: https://github.com/LuoCharlie/CharlieNote.git
   branch: main
+  type: baidu_url_submitter
 
 
 
