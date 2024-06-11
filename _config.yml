@@ -102,7 +102,6 @@ theme: hexo-theme-pure
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
   repo: https://github.com/LuoCharlie/CharlieNote.git
   branch: main
   type: baidu_url_submitter
