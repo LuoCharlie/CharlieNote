@@ -100,6 +100,7 @@ console.log(test);
 
 &emsp;&emsp;缩进一下
 
+<font color=#FF000 >***红色***</font>
 
 ## markdown语法如下
 
